@@ -3,8 +3,8 @@
   "description": "OpenAPI Documents",
   "version": "1.0.0",
   "scripts": {
-    "watch-redoc": "http-server ./redoc --cors -c-1",
-    "validate-redoc": "swagger-cli validate ./redoc/openapi.json"
+    "watch": "http-server --cors -c-1",
+    "validate": "swagger-cli validate ./openapi.json"
   },
   "dependencies": {
     "swagger-cli": "^4.0.2"
